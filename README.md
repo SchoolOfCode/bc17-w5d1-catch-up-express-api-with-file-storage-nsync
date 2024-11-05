@@ -42,6 +42,16 @@ Import your helper functions into your "app.js" file. Now the focus is to use th
 - **Break it down** Make a plan for each route. Start with what's coming in with the request and the response you expect, and then keep breaking the logic to get there down until you can't any further. Treat it like a Codewars and plan out the logic.
 - Make sure your responses include the **payload key**, with the value being either a recipe or an array of recipes, as shown in the table above. This is what the front end is expecting in your bonus challenge below!
 
+### Testing your work
+
+Run these tests to check your work only after you have completed the tasks above.
+
+Use command:
+
+```test commands
+npm test
+```
+
 ## Bonus challenges - THESE ARE OPTIONAL!
 
 Try the challenges below when you're confident that all the routes above work and your API is RESTful.
