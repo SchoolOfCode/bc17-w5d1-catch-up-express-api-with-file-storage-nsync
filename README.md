@@ -72,4 +72,4 @@ Make it so you can delete an individual recipe from the front-end. Plan out exac
 
 ### Keep improving!
 
-If you have time remaining, brainstorm new features you can add to your app on your server or the front end. This could include styling, additional functionality, error handling, additional query options, and more.
+If you have time remaining, brainstorm new features you can add to your app on your server or the front end. This could include styling, additional functionality, error handling, additional query options, and more
