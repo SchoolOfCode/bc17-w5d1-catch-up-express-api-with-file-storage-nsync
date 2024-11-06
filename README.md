@@ -53,6 +53,8 @@ npm test
 ```
 After running the test, use CTRL C to reset the terminal, similar to stopping nodemon while running a server.
 
+If some of the tests aren't passing, look for clues in the terminal as to why they have failed. The test name/description, expected and received outputs and other error messages can help you to troubleshoot, and potentially improve your CRUD routes (`app.js`) and/or helper functions (`recipes.js`) to the point that they pass.
+
 ## Bonus challenges - THESE ARE OPTIONAL!
 
 Try the challenges below when you're confident that all the routes above work and your API is RESTful.
