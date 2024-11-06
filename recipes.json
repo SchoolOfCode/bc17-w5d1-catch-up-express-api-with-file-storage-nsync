@@ -1,12 +1,1 @@
-[
-  {
-    "id": "e0f8980b-161d-4c14-b085-53c5daf5f8a8",
-    "title": "Test Recipe",
-    "ingredients": [
-      "ingredient1",
-      "ingredient2"
-    ],
-    "instructions": "Test instructions",
-    "image": "http://example.com/image.jpg"
-  }
-]
+[]
