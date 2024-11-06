@@ -51,6 +51,7 @@ Use command:
 ```test commands
 npm test
 ```
+After running the test, use CTRL C to reset the terminal, similar to stopping nodemon while running a server.
 
 ## Bonus challenges - THESE ARE OPTIONAL!
 

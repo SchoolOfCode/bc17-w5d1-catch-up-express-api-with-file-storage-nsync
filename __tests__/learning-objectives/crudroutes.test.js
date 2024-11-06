@@ -31,13 +31,14 @@ describe("Learning Objective: Implement CRUD routes for recipes", () => {
     }
   });
 
-    describe("Success Criterion: GET /api/recipes", () => {
+  describe("Success Criterion: GET /api/recipes", () => {
     it("should return all recipes", async () => {
       const response = await request(app).get("/api/recipes");
       expect(response.status).toBe(200);
       expect(response.body.success).toBe(true);
-      expect(response.body.payload).toBeInstanceOf(Array);
-    });  
+      expect(Array.isArray(response.body.payload)).toBe(true);
+    });
+  });
 
   describe("Success Criterion: GET /api/recipes/:id", () => {
     it("should return a recipe by ID", async () => {
@@ -96,5 +97,4 @@ describe("Learning Objective: Implement CRUD routes for recipes", () => {
       expect(response.body.payload).toHaveProperty("id", recipeId);
     });
   });
-});
 });
